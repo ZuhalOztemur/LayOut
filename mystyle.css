@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0x;
+    background-color: rgba(255, 171, 200, 0.3);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.sayfa{
+    width:fit-content;
+    height:fit-content; 
+    background-image: url("arkaplan.jpg");  
+}
+.aciklama{
+    border-style: double;
+    border-width: thick;
+    color:rgb(143, 114, 181);
+    text-align: center;
+  }
+
+.menu {
+    overflow: hidden; 
+    background-color: rgba(182, 221, 233, 0.2);
+}
+.menu ul{
+    margin: 0px;  
+    padding: 0px;
+}
+.menu li{
+    list-style-type: none;  
+    float: left;          
+}
+
+.menu a {            
+    display: block; 
+    color: #9289e4;
+    padding: 14px 125px; 
+    text-decoration: none; 
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.sutun{
+    float: left;
+    padding: 10px;
+}
+.sol,.sag{
+    width: 25%;
+}
+.sol{
+    margin-left: 30px;
+}
+.orta{
+    width: 40%;
+}
+.icerik:after {
+    content: "";
+    display: table;
+    clear: both;
+    font-size: medium;
+}
+
+.alt {
+    background-color: lightblue;
+    color: rgb(92, 87, 87);
+    padding: 10px;
+    text-align: center;
+}
+
